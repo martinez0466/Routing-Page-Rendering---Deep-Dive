@@ -1,0 +1,37 @@
+# Dependencies
+node_modules
+
+# Build outputs
+.next
+out
+build
+dist
+
+# Cache and temp
+.cache
+*.log
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment files
+.env*
+!.env.example
+
+# Version control
+.git
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+.DS_Store
+
+# Generated files
+public/icons/svg/**
+.claude/**
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
