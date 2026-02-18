@@ -38,7 +38,7 @@ export default function FilteredNewsPage({ params }) {
     (selectedMonth &&
       !getAvailableNewsMonths(selectedYear).includes(+selectedMonth))
   ) {
-    throw new Error('Invalid archive filter');
+    throw new Error('Invalid archive filter.');
   }
 
   return (
